@@ -1,0 +1,16 @@
+{
+    "database": {
+      "name": "forumflarum"
+    },
+    "tempcopydir": "/home/domain.com/htdocs/backup",
+    "flarumdir": "/home/domain.com/htdocs/flarum_main_dir",
+    "copyassets": "y",
+    "backupdir": "/home/domain.com/htdocs/backup",
+    "autoupdate": "y",
+    "mysqldumpcmd": "/usr/bin/mysqldump",
+    "user": "databaseuser",
+    "password": "databasepassword",
+    "dumpoptions": "--quick --add-drop-table --add-locks --extended-insert --lock-tables --no-tablespaces",
+    "gzip": "/bin/gzip"
+  }
+  
